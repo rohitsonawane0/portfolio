@@ -26,6 +26,9 @@
     <script>
       var _paq = (window._paq = window._paq || []);
       /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+      _paq.push(["setCookieDomain", "*.rohitsonawane.tech"]);
+      _paq.push(["setDomains", ["*.rohitsonawane.tech"]]);
       _paq.push(["trackPageView"]);
       _paq.push(["enableLinkTracking"]);
       (function () {
@@ -40,6 +43,14 @@
         s.parentNode.insertBefore(g, s);
       })();
     </script>
+    <noscript
+      ><p>
+        <img
+          src="//13.233.166.42/matomo/matomo.php?idsite=2&amp;rec=1"
+          style="border: 0"
+          alt=""
+        /></p
+    ></noscript>
     <!-- End Matomo Code -->
   </head>
   <body>
